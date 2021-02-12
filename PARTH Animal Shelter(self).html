@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PARTH Animal Shelter Pvt. Ltd.</title>
+</head>
+<style>
+    /* CSS reset*/
+    body{
+        margin: 0px;
+        padding: 0px; 
+        background-image: url(https://th.bing.com/th/id/Rbde5ca516f76d97d695d3611d1dd2da5?rik=ZCbvTtoIJl6pRQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f2nqffyV.jpg&ehk=Mbst7dPhKGdO3hnZCglSgBp%2ba6hTJSDJPO%2fTi%2bwEGJs%3d&risl=&pid=ImgRaw);
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        
+    }
+    .left{
+     display: inline-block;
+     top: 5px;
+     position: absolute;
+      
+    }
+    .left img{
+        width: 100px;
+    }
+    .left h2{
+       margin:auto;
+       color:red;
+    }
+    .mid{
+
+        display:block;
+        width: 600px;
+        margin: 20px auto;
+        
+    }
+    .right{
+       position: absolute;
+       display: inline-block;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li {
+        display: inline-block;
+
+    }
+    .navbar li a {
+        color: black;
+        text-decoration: none;
+        padding: 20px 20px;
+
+    }
+    .navbar li a:hover,.navbar li a:active{
+        color: red;;
+        text-decoration: underline;
+    }
+    .right{
+        position:absolute;
+        display: inline-block;
+        right:35px;
+        top:20px;
+    }
+    .btn{
+        color:grey;
+        border-radius:10px;
+        width:100px;
+        cursor:crosshair;
+        font-size: large;
+        padding:2px 2px;
+    }
+    .btn:hover{
+        background-color: turquoise;
+        color:red;
+    }
+    .container{
+        margin:200px 200px;
+        color:yellowgreen;
+        width: 400px;
+        padding;
+
+    }
+    .container button{
+        color:cornflowerblue;
+        background-color: darkgreen;
+        text-align: center;
+        display: block;
+        margin: 20px 110px;
+    }
+    .form-group input{
+        text-align:center;
+        width:300px;
+        padding:10px 10px;
+        margin: 10px;
+        color: darkred;
+        font-size: large;
+    
+    }
+    .container h3{
+        text-decoration: underline greenyellow;
+        margin-left:15px;
+
+</style>
+<body>
+    <header class="header">
+        <!--left box for navbar-->
+        <div class="left">
+            <img src="img/logo1.png" alt="">
+            <h2>PARTH Animal Shelter</h2>
+        </div>
+        <div class="mid">
+            <!--midbox for navbar-->
+            <ul class="navbar">
+                <li><a href="#" class="active">About PARTH</a></li>
+                <li><a href="#">Missions</a></li>
+                <li><a href="#">Team Players</a></li>
+                <li><a href="#">Stories</a></li>
+
+            </ul>
+        </div>
+        <!--Right box for navbar-->
+        <div class="right">
+            <button class="btn">Contact Us</button>
+            <button class="btn">Donate Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h3>Join the force to help Animals!</h3>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your Name"></div>
+                <div class="form-group">
+                <input type="email" placeholder="Enter your Email"></div>
+                <div class="form-group">
+                <input type="number" placeholder="Enter your Phone number"></div>
+                <div class="form-group">
+                <input type="text" placeholder="Enter your City">
+            </div>
+            <button class="btn">Submit</button>
+            
+        </form>
+
+    </div>
+</body>
+</html>
